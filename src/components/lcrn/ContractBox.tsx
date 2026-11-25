@@ -24,14 +24,14 @@ export function ContractBox() {
           Endereço do contrato
         </span>
         <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-black/40 px-3 py-2.5">
-          <code className="flex-1 truncate font-mono text-xs text-neutral-200 sm:text-sm">
+          <code className="min-w-0 flex-1 truncate font-mono text-xs text-neutral-200 sm:text-sm">
             {CONTRACT_ADDRESS}
           </code>
           <button
             type="button"
             onClick={handleCopy}
             aria-label="Copiar endereço do contrato"
-            className="flex items-center gap-1.5 rounded-lg border border-white/10 bg-white/5 px-2.5 py-1.5 text-xs text-neutral-300 transition-colors hover:border-emerald-400/40 hover:text-white"
+            className="flex shrink-0 items-center gap-1.5 rounded-lg border border-white/10 bg-white/5 px-2.5 py-1.5 text-xs text-neutral-300 transition-colors hover:border-emerald-400/40 hover:text-white"
           >
             {copied ? (
               <>

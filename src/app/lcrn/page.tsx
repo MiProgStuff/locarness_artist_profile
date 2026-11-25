@@ -8,7 +8,7 @@ export default function LcrnPage() {
   return (
     <div className="flex flex-col gap-24 px-4 py-20 sm:px-6">
       {/* Hero & Prova de Autoria */}
-      <section className="mx-auto flex max-w-3xl flex-col items-center gap-6 text-center">
+      <section className="mx-auto flex w-full max-w-3xl flex-col items-center gap-6 text-center">
         <p className="font-mono text-xs uppercase tracking-[0.3em] text-emerald-400">
           Ecossistema {TOKEN_SYMBOL}
         </p>
